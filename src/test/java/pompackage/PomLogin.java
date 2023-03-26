@@ -28,9 +28,9 @@ public class PomLogin extends BaseAmazonClass {
 	
 	}
 	public PomHomePage Login(String name, String pass) {
-		email.sendKeys("ketanikunj2608@gmail.com");
+		email.sendKeys("abc@gmail.com");
 		Continuebtn.click();
-		password.sendKeys("Keta@1205");
+		password.sendKeys("ABC@123");
 		SignInbtn.click();
 	
 		
